@@ -1,6 +1,8 @@
 # OS dependency
 .DS_Store
 
+# IDE dependency
+*.xcodeproj/
 
 # Prerequisites
 *.d
