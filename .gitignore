@@ -4,6 +4,10 @@
 # IDE dependency
 *.xcodeproj/
 
+# Doxygen temp output dir
+latex/
+html/
+
 # Prerequisites
 *.d
 

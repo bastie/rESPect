@@ -1,0 +1,37 @@
+# depends on brew install doxygen mactex-no-gui
+# call doxygen in directory of this file
+
+
+PROJECT_NAME            = rESPect32
+OUTPUT_LANGUAGE         = German
+
+RECURSIVE               = YES
+FULL_PATH_NAMES         = YES
+STRIP_FROM_PATH         = ../
+INPUT                   = extras/ \
+                          examples/ \
+                          src 
+EXAMPLE_PATH            = examples/
+EXAMPLE_PATTERNS        = *.c *.cpp *.h *.ino
+EXAMPLE_RECURSIVE       = YES
+
+EXTRACT_ALL             = YES
+EXTRACT_STATIC          = YES
+
+EXTENSION_MAPPING       = ino=C++
+FILE_PATTERNS           = *.c *.cpp *.h *.md *.ino
+
+WARNINGS                = YES
+
+OPTIMIZE_OUTPUT_FOR_C   = YES
+HIDE_IN_BODY_DOCS       = YES
+
+SEARCHENGINE            = NO
+GENERATE_RTF            = NO
+GENERATE_HTML           = YES
+GENERATE_LATEX          = YES
+USE_PDFLATEX            = YES
+COMPACT_LATEX           = YES
+
+NUM_PROC_THREADS        = 0
+# EOF
