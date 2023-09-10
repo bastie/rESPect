@@ -1,6 +1,6 @@
+#! /bin/zsh Doxyfile.workflow
 # depends on brew install doxygen mactex-no-gui
-# call doxygen in directory of this file
-
+# doxygen && cd latex && make pdf && mv refman.pdf ../extras/rESP32C++t.pdf && cd .. && rm -R latex
 
 PROJECT_NAME            = rESPect32
 OUTPUT_LANGUAGE         = German
@@ -28,7 +28,7 @@ HIDE_IN_BODY_DOCS       = YES
 
 SEARCHENGINE            = NO
 GENERATE_RTF            = NO
-GENERATE_HTML           = YES
+GENERATE_HTML           = NO
 GENERATE_LATEX          = YES
 USE_PDFLATEX            = YES
 COMPACT_LATEX           = YES
