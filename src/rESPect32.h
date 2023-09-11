@@ -38,7 +38,7 @@ public:
    int rRc = rSet ("Erni", "Bert");
    @endcode
    */
-  int rESPect::rSet (const char* name, const char* value);
+  int rSet (const char* name, const char* value);
   /**
    @brief Liefert den gesetzten Wert für eine Eigenschaft der Fassade.
    
