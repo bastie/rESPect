@@ -1,11 +1,20 @@
+/*
+ * SPDX-FileCopyrightText: 2023 - Sebastian Ritter <bastie@users.noreply.github.com>
+ * SPDX-License-Identifier: MIT
+ */
+
+/**
+@example
+*/
 #include <rESPect32.h>
 
+rESPect rInstance;
+
 void setup() {
-  // init your application here
-  printf ("rESPect v%s\n",RESPECT_VERSION);
+  // put your setup code here, to run once:
+  printf("rESPect v%s\n", rInstance.rGet("rVERSION"));
 }
 
 void loop() {
-  // put your main loop code here
-  delay(36000000);
+  // put your main code here, to run repeatedly:
 }
